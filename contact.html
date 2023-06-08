@@ -15,15 +15,35 @@
     <div>
         <h1> Contact Us! </h1>
         <form>
-            <label>
+            <div class="mb-3">
            <label> First Name :
-            <input type="First Name">
+            <input type="text" 
+            id="firstName"
+            placeholder="" 
+            autocomplete="on"/>
            </label>
+        </div>
+
+           <div class="mb-3">
            <label> Last Name :
-            <input type="Last Name">
+            <input type="text"
+            id="lastName"
+            placeholder=""/>
            </label>
-           <label> Enter name </label>
-           <label> Enter name </label>
+           </div>
+
+           <div class="mb-3">
+           <label> Phone # 
+            <input type="number" 
+            label="phone number"/>
+           </label>
+        </div>
+
+        <div class="mb-3">
+           <label> State, Country 
+            <input type="text">
+             </label>
+        </div>
             <div class="mb-3">
                 <label 
                 for="exampleFormControlInput1" 
@@ -34,6 +54,9 @@
                 id="exampleFormControlInput1" 
                 placeholder="name@example.com">
               </div>
+              
+                <input type="submit" label="Submit">
+              
         </div>
     </form>
     <br>
