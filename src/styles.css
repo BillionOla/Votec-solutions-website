@@ -61,3 +61,49 @@ p {
   padding: 30px 60px;
   font-weight: bold;
 }
+.form {
+    border-radius: 10px 10px;
+    background-color: white;
+    padding: 50px;
+    font-size: 20px;
+}
+
+
+
+#submit {
+  font-size: 30px;
+  background-color: #00c4cc; 
+  padding: 10px 30px;
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+}
+footer .email-link {
+    text-decoration: none;
+        color: black;
+        font-size: 20px;
+      }
+Footer .email-link:hover {
+    color:#00c4cc;
+      }
+
+.fa-brands {
+    max-width: 100px;
+    width: 100;
+    line-height: 1.5;
+    color: black;
+
+}
+.form-input {
+    
+  padding: 5px;
+  font-weight: bold;
+  
+}
+input [type=text]{
+    padding: 25px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    border:0 none;
+    margin: 0;
+}
