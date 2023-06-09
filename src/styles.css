@@ -62,48 +62,69 @@ p {
   font-weight: bold;
 }
 .form {
-    border-radius: 10px 10px;
-    background-color: white;
-    padding: 50px;
-    font-size: 20px;
+  border-radius: 10px 10px;
+  background-color: white;
+  padding: 50px;
+  font-size: 20px;
 }
-
-
 
 #submit {
   font-size: 30px;
-  background-color: #00c4cc; 
+  background-color: #00c4cc;
   padding: 10px 30px;
   font-weight: bold;
   color: white;
   border-radius: 20px;
 }
 footer .email-link {
-    text-decoration: none;
-        color: black;
-        font-size: 20px;
-      }
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
 Footer .email-link:hover {
-    color:#00c4cc;
-      }
+  color: #00c4cc;
+}
 
 .fa-brands {
-    max-width: 100px;
-    width: 100;
-    line-height: 1.5;
-    color: black;
-
+  max-width: 100px;
+  width: 100;
+  line-height: 1.5;
+  color: black;
 }
 .form-input {
-    
   padding: 5px;
   font-weight: bold;
-  
 }
-input [type=text]{
-    padding: 25px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    border:0 none;
-    margin: 0;
+input [type="text"] {
+  padding: 25px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  border: 0 none;
+  margin: 0;
+}
+nav {
+  padding-right: 100px;
+  /* padding-left: 10px;
+  background: white;*/
+}
+nav li {
+  display: inline;
+  text-decoration: none;
+  line-height: 42px;
+  padding-left: 50px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+nav a:hover,
+nav li.active a {
+  color: #00c4cc;
 }
