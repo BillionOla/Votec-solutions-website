@@ -128,3 +128,8 @@ nav a:hover,
 nav li.active a {
   color: #00c4cc;
 }
+.img-webpic {
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
